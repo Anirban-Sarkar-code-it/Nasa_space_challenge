@@ -1,0 +1,146 @@
+/* Background Fade-in Animation */
+*{
+    padding: 0;margin: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bg {
+    padding: 40px;
+    background-color: #f0f0f500;
+    background-image: url(bg2.jpeg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    opacity: 1;
+    animation: fadeIn 1s ease-in-out;
+}
+.head{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    
+}
+.heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #b6b6b6;
+    margin-bottom: 50px}
+/* Card Styling */
+.cards{
+    margin-top: 40px;
+}
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* This centers the cards horizontally */
+    gap: 20px; /* Adjust space between cards */
+}
+
+.card {
+    width: 250px; /* Set width for each card */
+    margin-bottom: 20px; /* Space between rows */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
+/* Popup Styling */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    height: 700px;
+    overflow: hidden;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.popup-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+
+.para{
+    margin-top: 40px;
+    text-align: left;
+
+}
+.para-container{
+    max-height: 350px; /* Set the max height for the scrolling area */
+    overflow-y: auto; 
+}
+
+.btn{
+    height: 30px;
+    width: 70px;
+    font-size: 13px;
+    font-weight: lighter;
+    padding: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+
+}

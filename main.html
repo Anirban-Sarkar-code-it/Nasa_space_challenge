@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Cards with Popup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Cards with Popup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg">
+        <div class="head">
+            <h1 class="heading">EXOPLANETS</h1>
+        </div>
+        
+        <div class="cards">
+            <!-- Card 1 -->
+            <div class="card" onclick="openPopup('popup1')">
+                <img src="Kepler-186f-in-photo.jpg" class="card-img-top" alt="Exoplanet 1">
+                <div class="card-body">
+                    <h5 class="card-title">Kepler-186f</h5>
+                    <p class="card-text">A potentially habitable exoplanet orbiting within the habitable zone of its star. <br>
+                        Planet Radius: 1.11 x Earth <br>
+                        Planet Type: Super Earth <br>
+                        Planet Mass: 1.27 Earths</p>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="card" onclick="openPopup('popup2')">
+                <img src="HD-209458-b.webp" class="card-img-top" alt="Exoplanet 2">
+                <div class="card-body">
+                    <h5 class="card-title">HD 209458 b</h5>
+                    <p class="card-text">An exoplanet with a striking resemblance to Jupiter, known for its atmosphere and rapid orbit. <br>
+                        Planet Radius: 1.38 x Jupiter <br>
+                        Planet Type: Hot Jupiter <br>
+                        Planet Mass: 0.69 Jupiters</p>
+                </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="card" onclick="openPopup('popup3')">
+                <img src="proxima centauri b.jpg" class="card-img-top" alt="Exoplanet 3">
+                <div class="card-body">
+                    <h5 class="card-title">Proxima Centauri b</h5>
+                    <p class="card-text">A rocky exoplanet located in the habitable zone of Proxima Centauri. <br>
+                        Planet Radius: 1.17 x Earth <br>
+                        Planet Type: Rocky <br>
+                        Planet Mass: 1.17 Earths</p>
+                </div>
+            </div>
+    
+            <!-- Card 4 -->
+            <div class="card" onclick="openPopup('popup4')">
+                <img src="HD 189733 b.jpeg" class="card-img-top" alt="Exoplanet 4">
+                <div class="card-body">
+                    <h5 class="card-title">HD 189733 b</h5>
+                    <p class="card-text">An exoplanet known for its deep blue color and extreme weather conditions. <br>
+                        Planet Radius: 1.14 x Jupiter <br>
+                        Planet Type: Hot Jupiter <br>
+                        Planet Mass: 1.15 Jupiters</p>
+                </div>
+            </div>
+    
+            <!-- Card 5 -->
+            <div class="card" onclick="openPopup('popup5')">
+                <img src="trappist-1d.jpeg" class="card-img-top" alt="Exoplanet 5">
+                <div class="card-body">
+                    <h5 class="card-title">Trappist-1d</h5>
+                    <p class="card-text">One of the seven Earth-sized planets orbiting the star Trappist-1, potentially habitable. <br>
+                        Planet Radius: 0.77 x Earth <br>
+                        Planet Type: Terrestrial <br>
+                        Planet Mass: 0.41 Earths</p>
+                </div>
+            </div>
+            <div class="card"  onclick="openPopup('popup6')">
+                <img src="wasp-12b.webp" class="card-img-top" alt="Exoplanet 6">
+                <div class="card-body">
+                    <h5 class="card-title">WASP-12b</h5>
+                    <p class="card-text">An extremely hot exoplanet with a heavily distorted shape due to its close orbit.<br>
+                        Planet Radius:1.79 x Jupiter <br>
+                        Planet Type:Hot Jupiter <br>
+                        Planet Mass:1.83 Jupiters
+                    </p>
+                </div>
+            </div>
+        
+            <!-- Card 7 -->
+            <div class="card"  onclick="openPopup('popup7')">
+                <img src="55-Cancri-e.jpg" class="card-img-top" alt="Exoplanet 7">
+                <div class="card-body">
+                    <h5 class="card-title">55 Cancri e</h5>
+                    <p class="card-text">A super-Earth known for its possible diamond-rich composition.<br>
+                        Planet Radius:1.88 x Earth <br>
+                        Planet Type:Super Earth <br>
+                        Planet Mass:8.08 Earths
+                    </p>
+                </div>
+            </div>
+        
+            <!-- Card 8 -->
+            <div class="card"  onclick="openPopup('popup8')">
+                <img src="GJ_1214_b.jpg" class="card-img-top" alt="Exoplanet 8">
+                <div class="card-body">
+                    <h5 class="card-title">GJ 1214 b</h5>
+                    <p class="card-text">A water world, potentially covered by a thick atmosphere of water vapor.<br>
+                        Planet Radius:2.67 x Earth <br>
+                        Planet Type:Water World <br>
+                        Planet Mass:6.55 Earths
+                    </p>
+                </div>
+            </div>
+        
+            <!-- Card 9 -->
+            <div class="card"  onclick="openPopup('popup9')">
+                <img src="LHS-1140b.jpg" class="card-img-top" alt="Exoplanet 9">
+                <div class="card-body">
+                    <h5 class="card-title">LHS 1140 b</h5>
+                    <p class="card-text">A rocky exoplanet in the habitable zone of its star.<br>
+                        Planet Radius:1.42 x Earth <br>
+                        Planet Type:Rocky <br>
+                        Planet Mass:1.9 Earths
+                    </p>
+                </div>
+            </div>
+        
+            <!-- Card 10 -->
+            <div class="card"  onclick="openPopup('popup10')">
+                <img src="k2-18b.jpeg" class="card-img-top" alt="Exoplanet 10">
+                <div class="card-body">
+                    <h5 class="card-title">K2-18b</h5>
+                    <p class="card-text">An exoplanet in the habitable zone with evidence of water vapor in its atmosphere.<br>
+                        Planet Radius:2.6 x Earth <br>
+                        Planet Type:Sub-Neptune <br>
+                        Planet Mass:8.6 Earths
+                    </p>
+                </div>
+            </div>
+            
+                
+            
+        
+        
+    </div>
+    <!-- Popup for Card 1 -->
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup1')">&times;</span>
+            <h2>Kepler-186f</h2>
+            <img src="Kepler-186f-in-photo.jpg" class="popup-img" alt="Kepler-186f"><hr>
+            <div class="para-container">
+            <p class="para"> <b>Distance from Earth:</b> 500 light-years<br>
+                <b>Type:</b> Earth-sized exoplanet<br>
+                <b>Location:</b> Constellation Cygnus<br>
+                <b>Orbiting Star:</b> Kepler-186 (Red dwarf star)<br>
+                <b>Orbital Period:</b> 130 days <br><br>
+                Kepler-186f is an exoplanet about the size of Earth, and it’s special because it orbits its star in the "habitable zone." This zone is the perfect distance from its star where temperatures might allow liquid water to exist, which is essential for life as we know it. <br><br>
+                Kepler-186f’s star is smaller and cooler than our Sun. As a result, Kepler-186f only gets about a third of the sunlight that Earth does. If you stood on Kepler-186f, the sky might appear much dimmer, even at noon. While we don’t know if this planet has an atmosphere, which is key to determining if it could support life, scientists think it’s a great candidate for further study. <br><br>
+                Kepler-186f was discovered in 2014 by NASA’s Kepler Space Telescope and represents an important step in the search for other worlds that could be like Earth. Even though it’s 500 light-years away, the discovery of Kepler-186f has excited scientists because it shows that Earth-like planets could be more common than we thought! <br><br>
+                <button class="btn" >3D View</button>
+            </p>
+            </div>
+           
+        </div>
+    </div>
+
+    <!-- Popup for Card 2 -->
+    <div id="popup2" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup2')">&times;</span>
+            <h2>HD 209458 b</h2>
+            <img src="HD-209458-b.webp" class="popup-img" alt="HD 209458 b"><hr>
+            <div class="para-container">
+
+            <p class="para">
+                
+                <b>Distance from Earth:</b>  150 light-years<br>
+                <b>Type:</b>Gas giant exoplanet (Hot Jupiter)<br>
+                <b>Location:</b> Constellation Pegasus<br>
+                <b>Orbital Period:</b> 3.5 days <br><br>
+                HD 209458 b is known for being the first exoplanet where scientists detected an atmosphere. They’ve even observed it "evaporating" due to the intense heat from its star. This discovery was made in 1999, making it one of the most studied exoplanets. The planet’s temperature reaches over 1,000°C (1,800°F), making it too hot for life as we know it.<br><br>
+                HD 209458 b is known for being the first exoplanet where scientists detected an atmosphere. They’ve even observed it "evaporating" due to the intense heat from its star. This discovery was made in 1999, making it one of the most studied exoplanets. The planet’s temperature reaches over 1,000°C (1,800°F), making it too hot for life as we know it. <br><br>
+                Another exciting fact is that HD 209458 b was the first exoplanet found to transit its star, which means it passes in front of its star from our point of view. This transit allows astronomers to study the planet's atmosphere in more detail by observing how starlight changes as it passes through. <br><br>
+                Though HD 209458 b may not be a candidate for life, it has taught scientists a lot about exoplanets and their atmospheres, paving the way for the discovery of even more worlds beyond our solar system. <br> <br>
+                <button class="btn" >3D View</button>
+            </p>
+            </div><div></div>
+        </div>
+    </div>
+
+    <!-- Popup for Card 3 -->
+    <div id="popup3" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup3')">&times;</span>
+            <h2>Proxima Centauri b</h2>
+            <img src="proxima centauri b.jpg" class="popup-img" alt="Proxima Centauri b"><hr>
+            
+            <div class="para-container">
+            <p class="para">   
+                <b>Distance from Earth:</b>4.2 light-years<br>
+                <b>Type:</b> Earth-sized exoplanet<br>
+                <b>Location:</b> Constellation Centauruss<br>
+                <b>Orbital Period:</b>11.2 days <br><br>
+                Proxima Centauri b is an exciting exoplanet located just over 4 light-years away from us, making it one of the closest known exoplanets to Earth. It orbits around Proxima Centauri, the closest star to our Sun. This planet is similar in size to Earth, which has made it a key target in the search for potentially habitable worlds.<br><br>
+                Proxima Centauri b is in the "habitable zone" of its star, meaning it’s at a distance where conditions might allow liquid water to exist on its surface. This makes it a fascinating candidate for studying whether life could potentially thrive there. However, because Proxima Centauri is a red dwarf star, it is much cooler than our Sun, and the planet may face strong stellar flares that could affect its atmosphere and climate. <br><br>
+                The planet completes one orbit around its star in just 11.2 Earth days. This means a year on Proxima Centauri b is much shorter than ours. The discovery of Proxima Centauri b was announced in 2016 and has since captured the interest of scientists eager to learn more about planets in the habitable zones of nearby stars. <br><br>
+                <button class="btn" >3D View</button>
+            </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup for Card 4 -->
+    <div id="popup4" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('popup4')">&times;</span>
+            <h2>HD 189733 b</h2>
+            <img src="HD 189733 b.jpeg" class="popup-img" alt="HD 189733 b"><hr>
+
+            <div class="para-container">
+            <p class="para">
+                <b>Distance from Earth:</b>63 light-years<br>
+                <b>Type:</b>: Gas giant exoplanet (Hot Jupiter)<br>
+                <b>Location:</b> Constellation Vulpecula<br>
+                <b>Orbital Period:</b> 2.2 days<br><br>
+                HD 189733 b is an exciting exoplanet located about 63 light-years away from Earth. It is a "Hot Jupiter," which means it is a massive gas giant that orbits very close to its star, HD 189733. This close proximity results in extremely high temperatures on the planet’s surface.<br><br>
+                HD 189733 b was one of the first exoplanets discovered to have such extreme weather and bright color. Studying it helps scientists understand more about how atmospheres on other planets can behave under extreme conditions and provides insights into the diverse types of planets that exist beyond our solar system.<br><br>
+                <b>Here are some fascinating facts about HD 189733 b:</b><br><br>
+
+                <b>Extreme Weather:</b> The planet’s atmosphere experiences extreme weather conditions, including fierce winds that can reach speeds of over 8,700 kilometers per hour (5,400 miles per hour). Scientists have even detected signs of rain made of molten glass, which occurs due to the intense heat. <br>
+                <b>Bright Blue Color:</b> HD 189733 b has a striking blue color. This isn’t because of oceans like on Earth, but because of the way its atmosphere scatters light. The planet's blue hue is a result of its thick, cloudy atmosphere. <br>
+                <b>Short Year: </b>A year on HD 189733 b is only about 2.2 Earth days long, due to its very close orbit around its star. <br><br>
+                <button class="btn" >3D View</button>
+            </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup for Card 5 -->
+<div id="popup5" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup('popup5')">&times;</span>
+        <h2>TRAPPIST-1d</h2>
+        <img src="trappist-1d.jpeg" class="popup-img" alt="TRAPPIST-1d">
+        <div class="para-container">
+            <p class="para">   
+                <b>Distance from Earth:</b> 40 light-years<br>
+                <b>Type:</b> Rocky exoplanet<br>
+                <b>Location:</b> Constellation Aquarius<br>
+                <b>Orbital Period:</b> 4.0 days<br><br>
+                TRAPPIST-1d is an exoplanet located approximately 40 light-years away from Earth, situated in the constellation Aquarius. It is part of the TRAPPIST-1 planetary system, which includes seven planets orbiting a small, cool star named TRAPPIST-1.<br><br>
+                TRAPPIST-1d is notable for its potential to support conditions similar to those on Earth. As a rocky planet, it has a solid surface, which is crucial for considering the possibility of liquid water. The planet orbits within the habitable zone of its star, where temperatures might be just right for water to remain liquid, an important factor for the potential development of life.<br><br>
+                With a relatively short orbital period of 4.0 Earth days, TRAPPIST-1d completes one orbit around its star quickly. The exact temperature and atmospheric composition of TRAPPIST-1d are still under investigation, but its position in the habitable zone makes it a subject of significant interest in the search for extraterrestrial life.<br><br>
+                <button class="btn" >3D View</button>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Popup for Card 6 -->
+<div id="popup6" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup('popup6')">&times;</span>
+        <h2>WASP-12b</h2>
+        <img class="popup-img" src="wasp-12b.webp" alt="WASP-12b">
+        <hr>
+        <div class="para-container">
+            <p class="para">
+                <b>Distance from Earth:</b> Approximately 1,400 light-years<br>
+                <b>Type:</b> Gas giant exoplanet (Hot Jupiter)<br>
+                <b>Location:</b> Constellation Aries<br>
+                <b>Orbital Period:</b> 1.1 days<br><br>
+                WASP-12b is an intriguing exoplanet located about 1,400 light-years away from Earth. It is classified as a "Hot Jupiter," meaning it is a massive gas giant orbiting very close to its host star. This proximity results in some remarkable features and extreme conditions on the planet.<br><br>
+                One of the most striking aspects of WASP-12b is its extreme heat. The planet’s surface can reach temperatures up to 2,500°C (4,500°F). This intense heat causes the planet’s atmosphere to expand and emit a bright glow, making it one of the hottest known exoplanets. Due to its close orbit, a year on WASP-12b is incredibly short, lasting only about 1.1 Earth days.<br><br>
+                The atmosphere of WASP-12b is unusual. The intense heat from its star is causing the planet’s atmosphere to be gradually pulled away, leading to a "puffed-up" appearance. This means that WASP-12b’s outer layers are being stretched and distorted over time.<br><br>
+                Discovered in 2008, WASP-12b has provided valuable insights into exoplanet atmospheres and their interactions with their stars. Studying such extreme conditions helps scientists learn more about how planets behave under intense heat and how their atmospheres can change.<br><br>
+                <button class="btn" >3D View</button>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Popup for Card 7 -->
+<div id="popup7" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup('popup7')">&times;</span>
+        <h2>55 Cancri e</h2>
+        <img class="popup-img" src="55-Cancri-e.jpg" alt="55 Cancri e">
+        <div class="para-container">
+            <p class="para">
+                <b>Distance from Earth:</b> Approximately 40 light-years<br>
+                <b>Type:</b> Rocky exoplanet (Super-Earth)<br>
+                <b>Location:</b> Constellation Cancer<br>
+                <b>Orbital Period:</b> 0.74 days<br><br>
+                55 Cancri e is a fascinating exoplanet located about 40 light-years away from Earth, in the constellation Cancer. It’s known as a "Super-Earth," meaning it is larger than Earth but smaller than gas giants like Neptune.<br><br>
+                One of the most interesting features of 55 Cancri e is its composition. This planet is thought to be made largely of carbon, and some scientists believe it may have a surface covered in graphite and diamond. This unusual composition makes it quite different from the rocky planets in our solar system.<br><br>
+                The planet orbits very close to its star, completing one orbit in just 0.74 Earth days. Because of this close proximity, 55 Cancri e experiences extremely high temperatures, which can exceed 1,600°C (2,900°F). This makes the planet’s surface incredibly hot.<br><br>
+                <button class="btn"  >3D View</button>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Popup for Card 8 -->
+<div id="popup8" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup('popup8')">&times;</span>
+        <h2>GJ 1214 b</h2>
+        <img class="popup-img" src="GJ_1214_b.jpg" alt="GJ 1214 b">
+        <div class="para-container">
+            <p class="para">
+                <b>Distance from Earth:</b> Approximately 40 light-years<br>
+                <b>Type:</b> Sub-Neptune exoplanet<br>
+                <b>Location:</b> Constellation Ophiuchus<br>
+                <b>Orbital Period:</b> 1.58 days<br><br>
+                GJ 1214 b is a fascinating exoplanet located about 40 light-years away from Earth in the constellation Ophiuchus. It is classified as a "sub-Neptune," meaning it is smaller and less massive than Neptune but larger than Earth. This makes it an interesting object of study for scientists exploring different types of planets.<br><br>
+                One of the most intriguing aspects of GJ 1214 b is its thick atmosphere. Scientists believe that the atmosphere might contain hydrogen and helium, and it could even be rich in water vapor or clouds. Because the planet is so close to its star, with an orbital period of just 1.58 Earth days, it experiences high temperatures, which influence its atmospheric conditions.<br><br>
+                GJ 1214 b is tidally locked, meaning one side always faces its star while the other side remains in darkness. This results in extreme temperature differences between the day side and the night side of the planet. The side facing the star can get very hot, while the other side remains much cooler.<br><br>
+                Discovered in 2009, GJ 1214 b has been a key focus for studying exoplanet atmospheres. Its unique features help scientists understand more about how atmospheres can vary on different planets and what conditions might be like on other worlds beyond our solar system.<br><br>
+                <button class="btn" >3D View</button>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Popup for Card 9 -->
+<div id="popup9" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup('popup9')">&times;</span>
+        <h2>LHS 1140 b</h2>
+        <img class="popup-img" src="LHS-1140b.jpg" alt="LHS 1140 b">
+        <div class="para-container">
+            <p class="para">
+                <b>Distance from Earth:</b> Approximately 40 light-years<br>
+                <b>Type:</b> Rocky exoplanet<br>
+                <b>Location:</b> Constellation Cetus<br>
+                <b>Known Planets:</b> LHS 1140 b, LHS 1140 c<br><br>
+                LHS 1140 is a red dwarf star located about 40 light-years away from Earth in the constellation Cetus. Red dwarfs are the most common type of star in the universe, known for their smaller size and lower temperatures compared to stars like our Sun.<br><br>
+                <b>Key Features of LHS 1140:</b><br><br>
+                <b>Star Characteristics:</b> LHS 1140 is cooler and less bright than our Sun, with a lower surface temperature. This type of star is very stable and has a long lifespan, making it interesting for studying potential planets that orbit around it.<br>
+                <b>Planetary System:</b> LHS 1140 hosts at least two known exoplanets: LHS 1140 b and LHS 1140 c. These planets are valuable for research as their orbits and characteristics provide insights into how planets form and evolve around red dwarf stars.<br>
+                <b>LHS 1140 b:</b> A rocky world with a size and composition similar to Earth. It lies within the star's habitable zone, where conditions might be right for liquid water, making it a particularly interesting target for studying the potential for life.<br>
+                <b>LHS 1140 c:</b> Another planet in the system, slightly larger, with potentially different atmospheric and climatic conditions compared to LHS 1140 b.<br><br>
+                <button class="btn" >3D View</button>
+
+            </p>
+            
+        </div>
+
+    </div>
+</div>
+
+<!-- Popup for Card 10 -->
+<div id="popup10" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup('popup10')">&times;</span>
+        <h2>K2-18b</h2>
+        <img class="popup-img" src="k2-18b.jpeg" alt="K2-18b">
+        <div class="para-container">
+            <p class="para">
+                <b>Distance from Earth:</b> Approximately 124 light-years<br>
+                <b>Type:</b> Sub-Neptune exoplanet<br>
+                <b>Location:</b> Constellation Leo<br>
+                <b>Orbital Period:</b> 33.5 days<br><br>
+                K2-18b is a fascinating exoplanet located about 124 light-years away from Earth in the constellation Leo. It is classified as a "sub-Neptune," meaning it is smaller than Neptune but larger than Earth, placing it in a unique category of planets.<br><br>
+                One of the most intriguing aspects of K2-18b is its atmosphere. Scientists believe that this planet has a thick atmosphere, which may be rich in hydrogen and helium. More excitingly, K2-18b is located in the habitable zone of its star, where conditions might allow for liquid water. This makes it a key target for studying the potential for water on other worlds.<br><br>
+                K2-18b orbits its host star every 33.5 Earth days, a relatively long period contributing to stable conditions on the planet. This makes K2-18b an excellent candidate for researchers studying planetary atmospheres and the conditions necessary for life.<br><br>
+                Discovered by the K2 mission of the Kepler Space Telescope, K2-18b has been a focus of significant interest due to the detection of water vapor in its atmosphere. This finding is important as it provides valuable clues about the composition of exoplanet atmospheres and the potential for habitable conditions beyond our solar system.<br><br>
+                <button class="btn" >3D View</button>
+            </p>
+            
+        </div>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
